@@ -1,20 +1,20 @@
-# HUWiki Personal
+# HUWiki
 
 **A collaborative TiddlyWiki environment built with Google Apps Script and Google Drive.**
 
-[**Open HUWiki Personal ↗**](https://script.google.com/macros/s/AKfycbzlcVcUF81ULiVeDSssq5kqJ9J5rodNCeEj_kl5ED-7lt3mF5Pwp-rE21wONejh4FqdEg/exec) · [Website](https://huwiki.måns.dk/) · [Dansk beskrivelse](#kort-på-dansk)
+[**Open HUWiki ↗**](https://script.google.com/macros/s/AKfycbzgCgLfgLVdTtpckevTm8Jw9xxPMSAQTNjK-LR_11FDppT7w-kFLfVOv6Wn4zjSQHrB/exec) · [Website](https://huwiki.måns.dk/) · [Dansk beskrivelse](#kort-på-dansk)
 
-> **Preview release:** The HUWiki Personal application currently has a **Danish-language interface**. The website is available in English (default) and Danish. HUWiki is evolving, and access to the app may be limited while Google OAuth verification is in progress.
+> **Preview release:** The HUWiki application currently has a **Danish-language interface**. The website is available in English (default) and Danish. HUWiki is evolving, and access to the app may be limited while Google OAuth verification is in progress.
 
 ## What is HUWiki?
 
 [TiddlyWiki](https://tiddlywiki.com/) is a remarkably flexible, non-linear notebook: small pieces of information (*tiddlers*) can be linked, tagged, rearranged and presented in many different ways. HUWiki explores what happens when that flexibility is combined with **Google Drive storage, collaboration and a collection of specialised wiki editions**.
 
-The project began as an attempt to make TiddlyWiki useful for teachers, students and colleagues at [Himmerlands Efterskole](https://himmerlandsefterskole.dk/) in Denmark. **HUWiki Personal** is the corresponding experiment for people using their own Google accounts.
+The project began as an attempt to make TiddlyWiki useful for teachers, students and colleagues at [Himmerlands Efterskole](https://himmerlandsefterskole.dk/) in Denmark. **HUWiki** is the corresponding experiment for people using their own Google accounts.
 
 It is an independent, non-commercial project by **Måns Mårtensson**, a teacher and long-time TiddlyWiki user. It is developed with assistance from large language models, particularly for programming and testing.
 
-**HUWiki Personal is free to use and will always remain free.** No paid editions, subscriptions, or commercial versions will be offered. Its ongoing preview status concerns features and availability, not the price.
+**HUWiki is free to use and will always remain free.** No paid editions, subscriptions, or commercial versions will be offered. Its ongoing preview status concerns features and availability, not the price.
 
 ## What can it do?
 
@@ -44,11 +44,11 @@ HUWiki also includes, or is actively developing, features such as:
 
 ## How it works
 
-HUWiki Personal is a **Google Apps Script web application**. Google sign-in provides an identity; Google Drive is used for wiki data and shared files. Each wiki remains a TiddlyWiki-based environment, with additional HUWiki integration for storage, sharing and editions.
+HUWiki is a **Google Apps Script web application**. Google sign-in provides an identity; Google Drive is used for wiki data and shared files. Each wiki remains a TiddlyWiki-based environment, with additional HUWiki integration for storage, sharing and editions.
 
 The **school edition** is restricted to the school's Workspace environment. **Personal** is being developed for ordinary Google accounts; the present preview may still require explicit OAuth test access. It is **not yet a released Google Workspace Marketplace product**.
 
-[Try the current Personal preview](https://script.google.com/macros/s/AKfycbzlcVcUF81ULiVeDSssq5kqJ9J5rodNCeEj_kl5ED-7lt3mF5Pwp-rE21wONejh4FqdEg/exec).
+[Try the current Personal preview](https://script.google.com/macros/s/AKfycbzgCgLfgLVdTtpckevTm8Jw9xxPMSAQTNjK-LR_11FDppT7w-kFLfVOv6Wn4zjSQHrB/exec).
 
 ## TiddlyWiki, contributors and licenses
 
@@ -64,11 +64,11 @@ HUWiki builds on the work of others. In particular:
 
 **The intention is to publish HUWiki's own source code**, but the full application source is **not distributed in this repository yet**. Before such a release, we will check the precise versions of included third-party components and preserve all required notices and license terms. A single license for original HUWiki code cannot override the licenses of bundled components.
 
-This repository contains **only the public information website** for HUWiki Personal, not its Apps Script application, private wiki data or bundled plugin source. See the site's [credits and licenses](https://huwiki.måns.dk/licenses.html) for more information.
+This repository contains **only the public information website** for HUWiki, not its Apps Script application, private wiki data or bundled plugin source. See the site's [credits and licenses](https://huwiki.måns.dk/licenses.html) for more information.
 
 ## Privacy, development and next steps
 
-HUWiki Personal is still in preview. Priorities include broader access for Google users, clearer documentation, English localisation, further development of editions and a reviewed source-code release.
+HUWiki is still in preview. Priorities include broader access for Google users, clearer documentation, English localisation, further development of editions and a reviewed source-code release.
 
 The [privacy](https://huwiki.måns.dk/privacy.html) and [terms](https://huwiki.måns.dk/terms.html) pages are **drafts pending a review of the deployed app's actual Google OAuth permissions, storage, sharing and optional integrations**. They should not yet be treated as final statements for an OAuth-verification submission.
 
@@ -78,19 +78,19 @@ For questions about HUWiki, contact [humamamm@gmail.com](mailto:humamamm@gmail.c
 
 ## Kort på dansk
 
-**HUWiki Personal er en samarbejdsudgave af TiddlyWiki, bygget med Google Apps Script og Google Drev.** Ideen er at gøre det lettere at oprette, organisere, gemme og dele wikier – både alene og sammen med andre.
+**HUWiki er en samarbejdsudgave af TiddlyWiki, bygget med Google Apps Script og Google Drev.** Ideen er at gøre det lettere at oprette, organisere, gemme og dele wikier – både alene og sammen med andre.
 
-Projektet begyndte som en skolewiki til Himmerlands Efterskole. Personal er en udgave under udvikling til almindelige Google-konti. Programmet er **indtil videre på dansk**, mens hjemmesiden findes på både engelsk og dansk. **HUWiki Personal er gratis og vil altid forblive gratis. Der kommer ingen betalingsudgaver, abonnementer eller kommercielle versioner.**
+Projektet begyndte som en skolewiki til Himmerlands Efterskole. Personal er en udgave under udvikling til almindelige Google-konti. Programmet er **indtil videre på dansk**, mens hjemmesiden findes på både engelsk og dansk. **HUWiki er gratis og vil altid forblive gratis. Der kommer ingen betalingsudgaver, abonnementer eller kommercielle versioner.**
 
 Med HUWiki arbejder vi blandt andet på fælles redigering og synkronisering, adgang via Google-deling, skabeloner og plugins, billeder og andre filer samt funktioner til kalender, visuelt indhold, præsentationer, import og publicering. **Ikke alle funktioner er færdige eller tilgængelige i alle udgaver.**
 
 HUWiki bygger på [TiddlyWiki](https://tiddlywiki.com/) (Jeremy Ruston og fællesskabet) og anvender blandt andet tilpassede komponenter fra [Eric Shulmans TiddlyTools](https://tiddlytools.com/). Deres respektive licenser og krediteringer skal bevares. Målet er senere at udgive HUWikis egen kode som open source, når de indbyggede komponenter er endeligt kontrolleret.
 
-**[Åbn HUWiki Personal](https://script.google.com/macros/s/AKfycbzlcVcUF81ULiVeDSssq5kqJ9J5rodNCeEj_kl5ED-7lt3mF5Pwp-rE21wONejh4FqdEg/exec)** · **[Hjemmeside på dansk](https://huwiki.måns.dk/da/)**
+**[Åbn HUWiki](https://script.google.com/macros/s/AKfycbzgCgLfgLVdTtpckevTm8Jw9xxPMSAQTNjK-LR_11FDppT7w-kFLfVOv6Wn4zjSQHrB/exec)** · **[Hjemmeside på dansk](https://huwiki.måns.dk/da/)**
 
 <details>
 <summary>Website maintenance and GitHub Pages deployment</summary>
 
-This public site is hosted from the `main` branch of [maans/huwiki-site](https://github.com/maans/huwiki-site) using GitHub Pages. The site's English pages are at the repository root, and Danish pages are under `da/`. Language selection uses links rather than cookies. The `CNAME` file points to `huwiki.xn--mns-ula.dk`; DNS is configured separately at the domain provider. Upload the *contents* of the release archive to the repository root, preserving paths. The HUWiki Personal Apps Script app is deployed separately and is not modified by updates to this site.
+This public site is hosted from the `main` branch of [maans/huwiki-site](https://github.com/maans/huwiki-site) using GitHub Pages. The site's English pages are at the repository root, and Danish pages are under `da/`. Language selection uses links rather than cookies. The `CNAME` file points to `huwiki.xn--mns-ula.dk`; DNS is configured separately at the domain provider. Upload the *contents* of the release archive to the repository root, preserving paths. The HUWiki Apps Script app is deployed separately and is not modified by updates to this site.
 
 </details>
