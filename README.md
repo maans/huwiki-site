@@ -4,7 +4,7 @@
 
 [**Open HUWiki ↗**](https://script.google.com/macros/s/AKfycbzgCgLfgLVdTtpckevTm8Jw9xxPMSAQTNjK-LR_11FDppT7w-kFLfVOv6Wn4zjSQHrB/exec) · [Website](https://huwiki.måns.dk/) · [Dansk beskrivelse](#kort-på-dansk)
 
-> **Preview release:** The HUWiki application currently has a **Danish-language interface**. The website is available in English (default) and Danish. HUWiki is evolving, and access to the app may be limited while Google OAuth verification is in progress.
+> **Preview release:** HUWiki includes Danish and English interfaces, with coverage varying between editions and plugins. The website is available in English (default) and Danish. HUWiki is evolving, and access to the app may be limited while Google OAuth verification is in progress.
 
 ## What is HUWiki?
 
@@ -40,15 +40,15 @@ HUWiki also includes, or is actively developing, features such as:
 | **Import / “Instant Wiki”** | Turn documents or tabular material into editable wiki content. |
 | **Studio, library and publishing** | Develop and share reusable packages, and publish selected content as separate websites. |
 
-**These are areas of active development, not a promise that every feature is finished or available in every build.** The Personal preview and the school edition do not necessarily contain the same components.
+**These are areas of active development, not a promise that every feature is finished or available in every build.** The OAuth preview and the school edition do not necessarily contain the same components.
 
 ## How it works
 
 HUWiki is a **Google Apps Script web application**. Google sign-in provides an identity; Google Drive is used for wiki data and shared files. Each wiki remains a TiddlyWiki-based environment, with additional HUWiki integration for storage, sharing and editions.
 
-The **school edition** is restricted to the school's Workspace environment. **Personal** is being developed for ordinary Google accounts; the present preview may still require explicit OAuth test access. It is **not yet a released Google Workspace Marketplace product**.
+The **school edition** is restricted to the school's Workspace environment. **HUWiki OAuth** is being developed for ordinary Google accounts; the present preview may still require explicit OAuth test access. It is **not yet a released Google Workspace Marketplace product**.
 
-[Try the current Personal preview](https://script.google.com/macros/s/AKfycbzgCgLfgLVdTtpckevTm8Jw9xxPMSAQTNjK-LR_11FDppT7w-kFLfVOv6Wn4zjSQHrB/exec).
+[Try the current OAuth preview](https://script.google.com/macros/s/AKfycbzgCgLfgLVdTtpckevTm8Jw9xxPMSAQTNjK-LR_11FDppT7w-kFLfVOv6Wn4zjSQHrB/exec).
 
 ## TiddlyWiki, contributors and licenses
 
@@ -68,9 +68,9 @@ This repository contains **only the public information website** for HUWiki, not
 
 ## Privacy, development and next steps
 
-HUWiki is still in preview. Priorities include broader access for Google users, clearer documentation, English localisation, further development of editions and a reviewed source-code release.
+HUWiki is still in preview. Priorities include broader access for Google users, clearer documentation, continued localisation, further development of editions and a reviewed source-code release.
 
-The [privacy](https://huwiki.måns.dk/privacy.html) and [terms](https://huwiki.måns.dk/terms.html) pages are **drafts pending a review of the deployed app's actual Google OAuth permissions, storage, sharing and optional integrations**. They should not yet be treated as final statements for an OAuth-verification submission.
+The privacy policy documents the OAuth application’s permissions, storage, sharing, logs, deletion and optional AI connections. This branch prepares that policy for owner review before publication. The terms remain a preview draft. Public Google verification also requires a verified domain, suitable in-app disclosures and a demonstration of the requested permissions.
 
 For questions about HUWiki, contact [humamamm@gmail.com](mailto:humamamm@gmail.com).
 
@@ -80,7 +80,7 @@ For questions about HUWiki, contact [humamamm@gmail.com](mailto:humamamm@gmail.c
 
 **HUWiki er en samarbejdsudgave af TiddlyWiki, bygget med Google Apps Script og Google Drev.** Ideen er at gøre det lettere at oprette, organisere, gemme og dele wikier – både alene og sammen med andre.
 
-Projektet begyndte som en skolewiki til Himmerlands Efterskole. Personal er en udgave under udvikling til almindelige Google-konti. Programmet er **indtil videre på dansk**, mens hjemmesiden findes på både engelsk og dansk. **HUWiki er gratis og vil altid forblive gratis. Der kommer ingen betalingsudgaver, abonnementer eller kommercielle versioner.**
+Projektet begyndte som en skolewiki til Himmerlands Efterskole. HUWiki OAuth er en udgave under udvikling til almindelige Google-konti. Programmet indeholder danske og engelske brugerflader med forskellig dækning i udgaver og plugins, mens hjemmesiden findes på både engelsk og dansk. **HUWiki er gratis og vil altid forblive gratis. Der kommer ingen betalingsudgaver, abonnementer eller kommercielle versioner.**
 
 Med HUWiki arbejder vi blandt andet på fælles redigering og synkronisering, adgang via Google-deling, skabeloner og plugins, billeder og andre filer samt funktioner til kalender, visuelt indhold, præsentationer, import og publicering. **Ikke alle funktioner er færdige eller tilgængelige i alle udgaver.**
 
