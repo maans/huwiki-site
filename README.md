@@ -70,7 +70,7 @@ This repository contains **only the public information website** for HUWiki, not
 
 HUWiki is still in preview. Priorities include broader access for Google users, clearer documentation, continued localisation, further development of editions and a reviewed source-code release.
 
-The privacy policy documents the OAuth application’s permissions, storage, sharing, logs, deletion and optional AI connections. This branch prepares that policy for owner review before publication. The terms remain a preview draft. Public Google verification also requires a verified domain, suitable in-app disclosures and a demonstration of the requested permissions.
+The privacy policy documents the OAuth application’s permissions, storage, sharing, logs, deletion and optional AI connections. The terms of use cover the public app for users aged 13 and over and adults. Public Google verification also requires a verified domain, suitable in-app disclosures and a demonstration of the requested permissions.
 
 For questions about HUWiki, contact [humamamm@gmail.com](mailto:humamamm@gmail.com).
 
