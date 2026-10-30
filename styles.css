@@ -8,3 +8,8 @@
 .links .locale-switch a{display:inline-flex;justify-content:center;align-items:center;min-width:38px;min-height:33px;padding:4px 9px;border-radius:7px;font-size:.88rem;font-weight:800;color:var(--deep);text-decoration:none}
 .links .locale-switch a.selected{background:var(--deep);color:white}
 .links .locale-switch a:focus-visible{outline:3px solid #2b8274;outline-offset:3px}
+
+/* Keep the TiddlyWiki credit readable on the dark hero background. */
+.hero .small a{color:inherit;text-underline-offset:.18em}
+.hero .small a:focus-visible{outline:2px solid currentColor;outline-offset:4px;border-radius:2px}
+
