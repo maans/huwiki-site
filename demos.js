@@ -44,10 +44,13 @@ const external = dialog.querySelector('.demo-external');
 const privacy = dialog.querySelector('.demo-privacy');
 let activeLink;
 
-function buildPlayer(link, title) {
+function buildPlayer(link, title, playlist) {
   if (link.dataset.youtube) {
     const iframe = document.createElement('iframe');
-    iframe.src = 'https://www.youtube-nocookie.com/embed/' + link.dataset.youtube + '?autoplay=1';
+    const source = new URL('https://www.youtube-nocookie.com/embed/' + link.dataset.youtube);
+    source.searchParams.set('autoplay', '1');
+    if (playlist) source.searchParams.set('list', playlist);
+    iframe.src = source.href;
     iframe.title = title;
     iframe.referrerPolicy = 'strict-origin-when-cross-origin';
     iframe.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
@@ -79,11 +82,12 @@ if (typeof dialog.showModal === 'function') {
     if (!link || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     event.preventDefault();
     activeLink = link;
-    heading.textContent = link.querySelector('h3').textContent;
+    const playlist = link.dataset.youtube && new URL(link.href).searchParams.get('list');
+    heading.textContent = playlist ? dialog.dataset.playlistTitle : link.querySelector('h3').textContent;
     external.href = link.href;
     external.textContent = dialog.dataset[link.dataset.youtube ? 'watch' : 'download'];
     privacy.hidden = link.closest('.demo-card').id !== 'permissions';
-    player.replaceChildren(buildPlayer(link, heading.textContent));
+    player.replaceChildren(buildPlayer(link, heading.textContent, playlist));
     dialog.showModal();
   });
 
