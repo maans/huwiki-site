@@ -10,3 +10,12 @@
 .demo-copy p:not(.demo-edition){margin:0 0 18px}
 .demo-copy a{margin-top:auto;align-self:flex-start;font-weight:700}
 @media(max-width:600px){.demo-hero{padding-block:40px 48px}.demo-main{padding-top:36px}.demo-grid{gap:18px}}
+
+.permissions-demo{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.3fr);align-items:center;gap:28px;margin-bottom:50px;padding:28px;scroll-margin-top:24px}
+.permissions-copy h2{font-size:clamp(1.9rem,3.5vw,2.65rem);margin:.15em 0 .45em}
+.permissions-copy p{margin:0 0 14px}
+.permissions-copy .permissions-eyebrow{font-size:.75rem;font-weight:760;text-transform:uppercase;letter-spacing:.09em;color:var(--sea)}
+.permissions-copy .permissions-meta{margin-bottom:12px}
+.permissions-copy a{font-weight:700}
+.permissions-demo video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:var(--deep);border-radius:12px}
+@media(max-width:800px){.permissions-demo{grid-template-columns:1fr;gap:20px;padding:20px;margin-bottom:36px}}
