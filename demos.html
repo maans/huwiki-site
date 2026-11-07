@@ -2,46 +2,138 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Short walkthroughs of real HUWiki projects: from notes to a plan, a puppet to a performance, and a catalog to an order."><meta name="theme-color" content="#123942">
+<meta name="description" content="Set up your first wiki, see what you can build, and understand the permissions HUWiki asks for."><meta name="theme-color" content="#123942">
 <title>See HUWiki in action · HUWiki</title>
-<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="demos.css">
+<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="demo-gallery.css">
 <link rel="canonical" href="https://huwiki.xn--mns-ula.dk/demos.html">
 <link rel="alternate" hreflang="en" href="https://huwiki.xn--mns-ula.dk/demos.html">
 <link rel="alternate" hreflang="da" href="https://huwiki.xn--mns-ula.dk/da/demos.html">
+<script src="demos.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#content">Skip to content</a>
 <header class="header"><div class="container nav"><a class="logo" href="index.html"><span class="logo-symbol">HU</span><span>HUWiki</span></a><nav aria-label="Main navigation" class="links"><a href="index.html">Home</a><a href="demos.html" aria-current="page" class="active">Demos</a><a href="about.html">About</a><a href="licenses.html">Credits &amp; licenses</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><span aria-label="Language / Sprog" class="locale-switch" role="group"><a aria-current="true" class="selected" href="demos.html" hreflang="en" lang="en">EN</a><a aria-label="View this page in Danish" href="da/demos.html" hreflang="da" lang="da">DA</a></span></nav></div></header>
-<section class="hero demo-hero"><div class="container"><div class="eyebrow">HUWiki · Demos</div><h1>See HUWiki in action</h1><p>Short walkthroughs of real HUWiki projects: from notes to a plan, a puppet to a performance, and a catalog to an order.</p></div></section>
+<section class="hero demo-hero">
+  <div class="container">
+    <div class="eyebrow">HUWiki · Demos</div>
+    <h1>See HUWiki in action</h1>
+    <p>Set up your first wiki, see what you can build, and understand the permissions HUWiki asks for.</p>
+  </div>
+</section>
 <main class="container main demo-main" id="content">
-<section class="card permissions-demo" id="first-wiki" aria-labelledby="first-wiki-title">
-  <div class="permissions-copy">
-    <p class="permissions-eyebrow">Getting started</p>
-    <h2 id="first-wiki-title">Your First HUWiki</h2>
-    <p>Start with a blank TiddlyWiki in HUWiki. Write a note for a repair café, make a poster with PasteUp and see how to share the wiki with a co-editor.</p>
-    <p class="small permissions-meta">English · 1:12</p>
-    <a href="https://www.youtube.com/watch?v=EVtwhqbEBl8" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a>
+  <div class="demo-catalog-header">
+    <div class="demo-catalog-title">
+      <h2>Find a demo</h2>
+      <p>Videos are in English.</p>
+    </div>
+    <div class="demo-filters" role="group" aria-label="Filter videos by topic" hidden>
+      <button type="button" data-topic="all" aria-pressed="true">All videos</button>
+      <button type="button" data-topic="start" aria-pressed="false">Getting started</button>
+      <button type="button" data-topic="projects" aria-pressed="false">Projects</button>
+      <button type="button" data-topic="access" aria-pressed="false">Access and sharing</button>
+    </div>
   </div>
-  <div class="demo-media">
-    <iframe src="https://www.youtube-nocookie.com/embed/EVtwhqbEBl8" title="Your First HUWiki" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+  <p class="demo-count" aria-live="polite" data-results="{count} videos" data-single="1 video" data-empty="There are no videos in this topic." hidden></p>
+  <div class="demo-grid">
+    <article class="demo-card" id="first-wiki" data-category="start">
+      <a class="demo-link" href="https://www.youtube.com/watch?v=EVtwhqbEBl8" data-youtube="EVtwhqbEBl8" aria-labelledby="first-wiki-title" aria-describedby="first-wiki-description">
+        <div class="demo-thumb">
+          <img src="demo-first-wiki.jpg" alt="" width="480" height="270" decoding="async">
+          <span class="demo-play" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="demo-time">1:12</span>
+        </div>
+        <div class="demo-copy">
+          <p class="demo-edition">Getting started</p>
+          <h3 id="first-wiki-title">Your First HUWiki</h3>
+          <p class="demo-description" id="first-wiki-description">Start a blank wiki, write a note, make a PasteUp poster, and share with a co-editor.</p>
+        </div>
+      </a>
+    </article>
+    <article class="demo-card" id="three-ways" data-category="start">
+      <a class="demo-link" href="https://www.youtube.com/watch?v=6ElhqkIHcWk" data-youtube="6ElhqkIHcWk" aria-labelledby="three-ways-title" aria-describedby="three-ways-description">
+        <div class="demo-thumb">
+          <img src="demo-three-ways.jpg" alt="" width="480" height="270" decoding="async">
+          <span class="demo-play" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="demo-time">1:14</span>
+        </div>
+        <div class="demo-copy">
+          <p class="demo-edition">Getting started</p>
+          <h3 id="three-ways-title">Three Ways to Start a Wiki</h3>
+          <p class="demo-description" id="three-ways-description">Use a built-in template, copy a shared template, or import a document from Drive or your computer.</p>
+        </div>
+      </a>
+    </article>
+    <article class="demo-card" id="ai" data-category="projects">
+      <a class="demo-link" href="https://www.youtube.com/watch?v=GjogqP6a-Ig" data-youtube="GjogqP6a-Ig" aria-labelledby="ai-title" aria-describedby="ai-description">
+        <div class="demo-thumb">
+          <img src="demo-ai.jpg" alt="" width="480" height="270" decoding="async">
+          <span class="demo-play" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="demo-time">2:23</span>
+        </div>
+        <div class="demo-copy">
+          <p class="demo-edition">AI Edition</p>
+          <h3 id="ai-title">From notes to a garden plan</h3>
+          <p class="demo-description" id="ai-description">Use a local Gemma model to turn your notes into a plan you can save in the wiki.</p>
+        </div>
+      </a>
+    </article>
+    <article class="demo-card" id="animation" data-category="projects">
+      <a class="demo-link" href="https://www.youtube.com/watch?v=Bayg7Otb8-I" data-youtube="Bayg7Otb8-I" aria-labelledby="animation-title" aria-describedby="animation-description">
+        <div class="demo-thumb">
+          <img src="demo-animation.jpg" alt="" width="480" height="270" decoding="async">
+          <span class="demo-play" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="demo-time">2:23</span>
+        </div>
+        <div class="demo-copy">
+          <p class="demo-edition">Animation Edition</p>
+          <h3 id="animation-title">A little world in motion</h3>
+          <p class="demo-description" id="animation-description">Bring a paper puppet to life with two scenes and a change of light in Cutout.</p>
+        </div>
+      </a>
+    </article>
+    <article class="demo-card" id="shop" data-category="projects">
+      <a class="demo-link" href="https://www.youtube.com/watch?v=lr3XiK2DnMM" data-youtube="lr3XiK2DnMM" aria-labelledby="shop-title" aria-describedby="shop-description">
+        <div class="demo-thumb">
+          <img src="demo-shop.jpg" alt="" width="480" height="270" decoding="async">
+          <span class="demo-play" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="demo-time">1:33</span>
+        </div>
+        <div class="demo-copy">
+          <p class="demo-edition">Shop Edition</p>
+          <h3 id="shop-title">From catalog to order</h3>
+          <p class="demo-description" id="shop-description">Publish a fictional ceramics shop and collect orders through Google Forms.</p>
+        </div>
+      </a>
+    </article>
+    <article class="demo-card" id="permissions" data-category="access">
+      <a class="demo-link" href="huwiki-google-permissions.mp4" data-captions="huwiki-google-permissions.en.vtt" aria-labelledby="permissions-title" aria-describedby="permissions-description">
+        <div class="demo-thumb">
+          <img src="demo-permissions.jpg" alt="" width="480" height="270" decoding="async">
+          <span class="demo-play" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="demo-time">1:51</span>
+        </div>
+        <div class="demo-copy">
+          <p class="demo-edition">Access and sharing</p>
+          <h3 id="permissions-title">Google permissions explained</h3>
+          <p class="demo-description" id="permissions-description">See why HUWiki asks for Google permissions and how its Drive access is limited.</p>
+        </div>
+      </a>
+    </article>
   </div>
-</section>
-<section class="card permissions-demo" id="permissions" aria-labelledby="permissions-title">
-  <div class="permissions-copy">
-    <p class="permissions-eyebrow">Before you connect HUWiki</p>
-    <h2 id="permissions-title">Google permissions explained</h2>
-    <p>See why HUWiki asks for Drive access, email, read-only Calendar access, internet connections and Google Forms. The film explains the difference between full Drive access and access to individual files.</p>
-    <p class="small permissions-meta">English audio and captions</p>
-    <a href="privacy.html">Read the privacy policy →</a>
-  </div>
-  <video controls playsinline preload="none" width="1920" height="1080" aria-labelledby="permissions-title" poster="huwiki-google-permissions.jpg">
-    <source src="huwiki-google-permissions.mp4" type="video/mp4">
-    <track kind="captions" src="huwiki-google-permissions.en.vtt" srclang="en" label="English">
-    <a href="huwiki-google-permissions.mp4">Play or download the video</a>
-  </video>
-</section>
-<h2>Three projects to explore</h2><div class="demo-grid">
-<article class="card demo-card" id="ai"><div class="demo-media"><iframe src="https://www.youtube-nocookie.com/embed/GjogqP6a-Ig" title="AI Edition — From notes to a garden plan" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div><div class="demo-copy"><p class="demo-edition">AI Edition</p><h3>From notes to a garden plan</h3><p>Follow a community garden example from wiki notes to a conversation with a local Gemma model, then review the reply and turn it into a wiki page. The demo also shows how to check and use AI-assisted WikiText.</p><a href="https://www.youtube.com/watch?v=GjogqP6a-Ig" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a></div></article><article class="card demo-card" id="animation"><div class="demo-media"><iframe src="https://www.youtube-nocookie.com/embed/Bayg7Otb8-I" title="Animation Edition — A little world in motion" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div><div class="demo-copy"><p class="demo-edition">Animation Edition</p><h3>A little world in motion</h3><p>See how a puppet, two scenes and a change of light come together in a short theatre performance. The Cutout workshops use editable wiki content to build and publish the show.</p><a href="https://www.youtube.com/watch?v=Bayg7Otb8-I" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a></div></article><article class="card demo-card" id="shop"><div class="demo-media"><iframe src="https://www.youtube-nocookie.com/embed/lr3XiK2DnMM" title="Shop Edition — Clay &amp; Coast: from catalog to order" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div><div class="demo-copy"><p class="demo-edition">Shop Edition</p><h3>Clay &amp; Coast: from catalog to order</h3><p>Explore a fictional ceramics shop. Set up product variants, publish a catalog and use Google Forms to receive requests in the private order book. This example takes no payments.</p><a href="https://www.youtube.com/watch?v=lr3XiK2DnMM" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a></div></article>
-</div></main>
+  <dialog class="demo-dialog" aria-labelledby="demo-video-title"
+      data-watch="Watch on YouTube ↗" data-download="Open video file ↗">
+    <div class="demo-dialog-header">
+      <h2 id="demo-video-title"></h2>
+      <form method="dialog">
+        <button type="submit" class="demo-close" aria-label="Close player">×</button>
+      </form>
+    </div>
+    <div class="demo-player"></div>
+    <div class="demo-dialog-footer">
+      <a class="demo-external" target="_blank" rel="noopener noreferrer"></a>
+      <a class="demo-privacy" href="privacy.html" hidden>Read the privacy policy</a>
+    </div>
+  </dialog>
+</main>
 <footer class="foot"><div class="container inner"><div><strong>HUWiki</strong><p class="small">An independent project built on TiddlyWiki. Not officially affiliated with or endorsed by TiddlyWiki or TiddlyTools.</p></div><div class="quick"><a href="licenses.html">Licenses</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a aria-label="Email humamamm@gmail.com" href="mailto:humamamm@gmail.com">humamamm@gmail.com</a></div></div></footer>
 </body></html>
