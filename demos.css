@@ -1,0 +1,12 @@
+/* Demo pages share the main HUWiki colour and type styles. */
+.demo-hero{padding-block:64px 72px}.demo-main{padding-block:48px 68px}
+.demo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:22px;margin-top:26px}
+.demo-card{padding:0;overflow:hidden;display:flex;flex-direction:column}
+.demo-media{aspect-ratio:16/9;background:var(--deep);overflow:hidden}
+.demo-media iframe,.demo-preview{display:block;width:100%;height:100%;border:0}
+.demo-preview{display:grid;place-items:center;color:var(--mint);font-weight:700}
+.demo-copy{padding:23px;display:flex;flex-direction:column;flex:1}
+.demo-copy .demo-edition{color:var(--sea);font-size:.75rem;text-transform:uppercase;letter-spacing:.09em;font-weight:760;margin-bottom:9px}
+.demo-copy p:not(.demo-edition){margin:0 0 18px}
+.demo-copy a{margin-top:auto;align-self:flex-start;font-weight:700}
+@media(max-width:600px){.demo-hero{padding-block:40px 48px}.demo-main{padding-top:36px}.demo-grid{gap:18px}}
